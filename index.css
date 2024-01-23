@@ -1,0 +1,105 @@
+.head{
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid black;
+}
+.logo{
+    width: 220px;
+    height: 100px;
+}
+.poke-logo{
+    font-size: 30px;
+    margin: 9px;
+    padding: 5px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    
+}
+
+.list > li {
+    margin: 14px;
+    padding: 17px;
+    font-size: 20px;
+}
+.react-btnName{
+    margin: 14px;
+    padding: 17px;
+    font-size: 18px;
+}
+.poke-container{
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.img{
+    width: 200px;
+    height: 150px;
+    background-color: #B2BEB5 ;
+}
+.poke-card{
+    width: 200px;
+    height: 300px;
+    margin: 6px;
+    flex-wrap: wrap;
+     
+}
+.poke-card:hover{
+    cursor: pointer;
+    border: 2px solid black;
+}
+.ability-btn{
+    border-radius: 20px;
+    background-color: #AAFF00;
+    width: 100px;
+    border-color: white;
+cursor: pointer;
+}
+.weak-btn{
+    border-radius: 20px;
+    background-color: #D2042D;
+    width: 100px;
+    border-color: white;
+    cursor: pointer;
+}
+.buttons{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.search-btn{
+    margin: 5px;
+    
+    height: 30px;
+   
+    font-size: 20px;
+    background-color: #D27D2D;
+}
+.search-btn:hover{
+    cursor: pointer;
+    transition: 2s;
+}
+.inputValue{
+    margin: 5px;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    
+}
+.shimmer-container{
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.shimmer-cards{
+    width: 200px;
+    height: 300px;
+    margin: 6px;
+    flex-wrap: wrap;
+    background-color:#EDEADE ;
+}    
